@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Sparkles, Code2, Zap } from "lucide-react";
+import manojProfile from "@/assets/manoj-profile.jpg";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -72,7 +73,7 @@ const Hero = () => {
               <div className="relative bg-white/10 backdrop-blur-sm rounded-full p-2 border border-white/20 shadow-2xl">
                 <div className="w-48 h-48 rounded-full overflow-hidden ring-4 ring-white/30 ring-offset-4 ring-offset-transparent">
                   <img 
-                    src="/lovable-uploads/ecbd8aae-1270-4ac7-97d0-4e789354bcd3.png" 
+                    src={manojProfile} 
                     alt="Manoj M - Software Engineer"
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   />
